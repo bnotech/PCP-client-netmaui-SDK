@@ -1,6 +1,6 @@
 # Contributing to the PAYONE Commerce Platform Client iOS SDK
 
-Thank you for considering contributing to the PAYONE Commerce Platform Client iOS SDK! We appreciate your efforts to help improve this project. Below are guidelines for contributing.
+Thank you for considering contributing to the PAYONE Commerce Platform Client .NET MAUI SDK! We appreciate your efforts to help improve this project. Below are guidelines for contributing.
 
 ## How to Contribute
 
