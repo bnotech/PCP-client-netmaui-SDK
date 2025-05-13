@@ -1,4 +1,4 @@
-# Contributing to the PAYONE Commerce Platform Client iOS SDK
+# Contributing to the PAYONE Commerce Platform Client .NET MAUI SDK
 
 Thank you for considering contributing to the PAYONE Commerce Platform Client .NET MAUI SDK! We appreciate your efforts to help improve this project. Below are guidelines for contributing.
 
@@ -20,7 +20,7 @@ We welcome pull requests! Please follow these steps to submit one:
 
 If you encounter any bugs, please report them using one of the following methods:
 
-1. **Issue Tracker**: Submit an issue through our [issues tracker](https://github.com/PAYONE-GmbH/PCP-client-ios-SDK/issues/new).
+1. **Issue Tracker**: Submit an issue through our [issues tracker](https://github.com/bnotech/PCP-client-netmaui-SDK/issues/new).
 2. **Security Issues**: For security-related issues, please contact our IT support via email at tech.support@payone.com with a clear subject line indicating that it is a security issue. This ensures that the issue will be visible to and handled by the PAYONE tech support team.
 
 ## Style Guides
@@ -28,10 +28,6 @@ If you encounter any bugs, please report them using one of the following methods
 ### Git Commit Messages
 
 We use [Conventional Commits](https://www.conventionalcommits.org/) for our commit messages. See the whole specification [here](https://www.conventionalcommits.org/en/v1.0.0/#specification).
-
-### Swiftlint
-
-- The project has a pre-commit-config which will run Swiftlint before each commit. Assure that your are using the same swiftlint version locally as stated in the [pre-commit-config.yaml](./.pre-commit-config.yaml).
 
 ### Testing
 
@@ -41,11 +37,11 @@ We use [Conventional Commits](https://www.conventionalcommits.org/) for our comm
 
 ## Running the demo projects
 
-- In order to test that the SDK still works after your changes assure that you run both demo projects with Objetive-C or Swift.
+- In order to test that the SDK still works after your changes assure that you run the demo project.
 
 ### Setup the demo projects
 
-- Both demo projects include certain identifiers that need to be set on your end to run them successfully. These `String` values are prefixed with 'YOUR_' and can be replaced during testing.
+- The demo project includes certain identifiers that need to be set on your end to run it successfully. These `String` values are prefixed with 'YOUR_' and can be replaced during testing.
 - Make sure that you do not(!) commit those values since that would leak your secrets and they would be part of the Git history when pushed.
-
+ 
 Thank you for your contributions!
